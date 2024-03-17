@@ -215,7 +215,7 @@
     box-shadow: 3px 5px 10px red;
 }
 
-/* second tab of first line */
+/* second tab of first line design(class) */
 .design{
     padding: 20px 50px;
     background-color: rgba(255, 0, 0, 0.3);
@@ -235,5 +235,32 @@
 }
 /* design tab on hover */
 .design:hover{
+    box-shadow: 3px 5px 10px red;
+}
+
+/* second line starts */
+.second-line{
+    padding-bottom: 40px;
+}
+/* for sales (class) */
+.sales{
+    padding: 20px 50px;
+    background-color: rgba(255, 0, 0, 0.3);
+    font-size: 20px;
+    border: none;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    transition: .6s;
+    cursor: pointer;
+}
+/* sales id */
+#sales{
+    color: rgb(53, 53, 53);
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+/* sales tab on hover */
+.sales:hover{
     box-shadow: 3px 5px 10px red;
 }
