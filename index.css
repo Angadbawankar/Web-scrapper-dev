@@ -347,6 +347,7 @@
 /* div of "companies to explore" */
 .explore-container{
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 /* explore text */
 .explore{
@@ -368,16 +369,33 @@
     border-radius: 30px;
     align-items: center;
     padding: 15px 30px;
+    transition: .3s;
 }
 /* delloit logo */
 #delloit-logo{
+    border: 2px solid black;
     border-radius: 30px;
+    transition: .3s;
+}
+/* adding hover on delloit */
+.logo-1-delloit:hover{
+    padding-bottom: 100px;
+}
+/* adding after animation on delloit logo */
+#delloit-logo:active{
+    box-shadow: 0 0 20px red;
 }
 /* netflix logo container */
 .logo-2-netflix{
-
+    transition: .3s;
 }
 /* netflix logo */
 #netflix-logo{
     height: 230px;
+    transition: .3s
+    ;
+}
+/* adding hover on netflix */
+#netflix-logo:hover{
+    padding-bottom: 100px;
 }
