@@ -424,3 +424,23 @@
 #amazon-logo:active {
     box-shadow: 0 0 20px red;
 }
+
+/* adding flipkart logo */
+.logo-4-flipkart{
+    padding-left: 40px;
+    transition: .3s;
+}
+/* flipkart logo */
+#flipkart-logo{
+    height: auto;
+    width: 200px;
+    border-radius: 30px;
+}
+/* adding hover animation to flipkart */
+.logo-4-flipkart:hover{
+    padding-bottom: 100px;
+}
+/* adding active animation to flipkart logo */
+#flipkart-logo:active{
+    box-shadow: 0 0 20px red;
+}
