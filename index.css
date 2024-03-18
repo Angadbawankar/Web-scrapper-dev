@@ -392,10 +392,35 @@
 /* netflix logo */
 #netflix-logo{
     height: 230px;
-    transition: .3s
-    ;
+    transition: .3s;
+    border-radius: 20px;
 }
 /* adding hover on netflix */
-#netflix-logo:hover{
+.logo-2-netflix:hover{
     padding-bottom: 100px;
+}
+/* adding active animation on netflix */
+#netflix-logo:active{
+    box-shadow: 0 0 20px red;
+}
+/* adding amazon logo container */
+.logo-3-amazon{
+    padding-left: 30px;
+    transition: .3s;
+}
+/* amazon logo */
+#amazon-logo{
+    height: auto;
+    width: 300px;
+    border-radius: 30px;
+    border: 2px solid black;
+    transition: .3s;
+}
+/* adding hover animation on amazon */
+.logo-3-amazon:hover{
+    padding-bottom: 100px;
+}
+/* adding active animation on amazon logo */
+#amazon-logo:active {
+    box-shadow: 0 0 20px red;
 }
