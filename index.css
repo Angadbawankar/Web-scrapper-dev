@@ -337,4 +337,18 @@
 .finance:hover{
     box-shadow: 3px 5px 10px red;
 }
-/* compelition of discover job */
+
+/* discover jobs image will be here */
+
+
+
+
+/* after discover jobs starts from here */
+/* div of "companies to explore" */
+.explore-container{
+    margin-top: 100px;
+}
+/* explore text */
+.explore{
+    text-align: center;
+}
