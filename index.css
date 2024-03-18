@@ -352,3 +352,12 @@
 .explore{
     text-align: center;
 }
+/* logo-outer -container changes */
+.logo-outer-container{
+    background-color: rgba(255, 0, 0, 0.3);
+    margin-bottom: 10%;
+    height: 250px;
+    width: auto;
+    border-radius: 33px;
+}
+
