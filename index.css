@@ -356,7 +356,6 @@
 /* logo-outer -container changes */
 .logo-outer-container{
     background-color: rgba(255, 0, 0, 0.3);
-    margin-bottom: 10%;
     height: 250px;
     width: auto;
     border-radius: 33px;
@@ -443,4 +442,17 @@
 /* adding active animation to flipkart logo */
 #flipkart-logo:active{
     box-shadow: 0 0 20px red;
+}
+/* more companies are yet to add */
+
+/* image after the companies bar */
+/* showcase image container */
+.show-case-image{
+    text-align: center;
+}
+/* showcase-image (actual) */
+.show-case-image img{
+    display: block;
+    height: 750px;
+    width: auto;
 }
