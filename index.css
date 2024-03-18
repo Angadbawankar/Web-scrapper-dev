@@ -359,5 +359,25 @@
     height: 250px;
     width: auto;
     border-radius: 33px;
+    box-shadow: 6px 6px 10px rgba(255, 0, 0, 0.6);
+    align-items: center;
+    display: flex;
 }
+/* delloit logo container */
+.logo-1-delloit{
+    border-radius: 30px;
+    align-items: center;
+    padding: 15px 30px;
+}
+/* delloit logo */
+#delloit-logo{
+    border-radius: 30px;
+}
+/* netflix logo container */
+.logo-2-netflix{
 
+}
+/* netflix logo */
+#netflix-logo{
+    height: 230px;
+}
