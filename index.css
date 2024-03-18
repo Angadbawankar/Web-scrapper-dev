@@ -357,6 +357,7 @@
 .logo-outer-container{
     background-color: rgba(255, 0, 0, 0.3);
     height: 250px;
+    margin-bottom: 50px;
     width: auto;
     border-radius: 33px;
     box-shadow: 6px 6px 10px rgba(255, 0, 0, 0.6);
@@ -455,4 +456,53 @@
     display: block;
     height: 750px;
     width: auto;
+}
+
+/* starting of footer */
+.footer{
+    margin-bottom: 100px;
+    padding-top: 30px;
+    border-top: 2px solid black;
+}
+
+/* footer logo */
+.footer-logo{
+    margin-left: 55px;
+}
+
+/* contact text */
+.contact-text{
+    margin-left: 100px;
+}
+
+/* socials */
+.social{
+    display: flex;
+}
+
+/* meta logo */
+.meta{
+    height: 50px;
+    width: auto;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+/* linkedin */
+.linkedin{
+    height: 50px;
+    width: auto;
+    border: 2px solid black; 
+    margin-left: 30px;
+    border-radius: 10px;
+    padding: 0 7px 0 7px;
+}
+
+/* twitter */
+.twitter{
+    height: 50px;
+    width: auto;
+    margin-left: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
 }
