@@ -1,0 +1,143 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* outer div */
+.outer{
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* navigation which contain divs for image, links and Signup btn */
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+
+/* actual image */
+#image{
+    height: auto;
+    width: 60%;
+    cursor: not-allowed;
+}
+
+
+/* div for navigation links */
+.links{
+    align-items: center;
+    word-spacing: 50px;
+    font-size: x-large;
+    font-weight: 500;
+    margin-left: 25%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* home tab */
+#home{
+    text-decoration: none;
+    color: black;
+    transition: .2s;
+}
+/* home tab on hover */
+#home:hover{
+    color: red;
+    transition: .5s;
+    text-shadow: 2px 4px 3px rgba(255, 0, 0, 0.5);
+    transition: .2s;
+}
+/* home on active */
+#home:active{
+    text-shadow: 1px 2px 1.5px rgba(255, 0, 0, 0.5);
+}
+
+
+/* job tab */
+#job{
+    text-decoration: none;
+    color: black;
+}
+/* hover on job tab */
+#job:hover{
+    color: red;
+    transition: .5s;
+    text-shadow: 2px 4px 3px rgba(255, 0, 0, 0.5);
+    transition: .2s;
+}
+/* job on active */
+#job:active{
+    text-shadow: 1px 2px 1.5px rgba(255, 0, 0, 0.5);
+
+}
+
+/* companies tab */
+#companies{
+    text-decoration: none;
+    color: black;
+}
+/* hover on companies */
+#companies:hover{
+    color: red;
+    transition: .5s;
+    text-shadow: 2px 4px 3px rgba(255, 0, 0, 0.5);
+    transition: .2s;
+}
+/* companies on active */
+#companies:active{
+    text-shadow: 1px 2px 1.5px rgba(255, 0, 0, 0.5);
+}
+
+
+/* signup button div */
+.btn-container-1{
+    margin-left: 20%;
+}/* button container div */
+.btn-container-1{
+    margin-left: 20%;
+}
+
+/* search */
+.search-container{
+    display: flex;
+    align-items: center;
+    width: 90%; /* Adjust the width as needed */
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 55px;
+    margin-left: 40px;
+    font-size: 20px;
+    font: bolder;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.438);
+}
+/* search-bar */
+#search-bar{
+    flex: 1;
+    border: none;
+    padding: 2px;
+    padding-left: 10px;
+    font-size: 23px;
+    outline: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* search button */
+.search-btn{
+    padding: 8px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: red;
+    color: #ffffff;
+    transition: .2s;
+}
+/* search button on hover */
+.search-btn:hover{
+    box-shadow: 0 0 10px  rgba(255, 0, 0, 0.6);
+}
+/* search button on active */
+.search-btn:active{
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.4);
+}
