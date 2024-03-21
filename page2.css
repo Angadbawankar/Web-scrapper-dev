@@ -148,6 +148,7 @@
 }
 /* filter */
 .filter{
+    padding-top: 30px;
     height: 800px;
     width: 300px;
     background-color: rgba(255, 0, 0, 0.3);
@@ -166,5 +167,84 @@
 .radio-1-line{
     padding-right: 8px;
     padding-bottom: 10px;
+}
+/* workmode container */
+.work-mode-container{
+    margin-top: 50px;
+}
+/* heading of work mode */
+.work-mode{
+    text-align: center;
+}
+/* "remote" job filter */
+.remote{
+    text-align: center;
+}
+/* "onsite" job filter  */
+.on-site{
+    text-align: center;
+    padding-left: 9px;
+    padding-top: 10px;
+}
+/* department container */
+.department-container{
+    padding-top: 35px;
+}
 
+.department{
+    text-align: center;
+    word-spacing: 30px;
+    word-spacing: 40px;
+}
+
+/* engineering */
+.engi-soft{
+    text-align: center;
+}
+
+#engi-soft{
+    font-size: 17px;
+    color: black;
+    transition: .2s;
+}
+/* hover animation on engineering and software */
+#engi-soft:hover{
+    font-size: 19px;
+    color: blue;
+}
+
+
+/* design */
+.design{
+    text-align: center;
+    margin-top: 15px;
+}
+#design{
+    font-size: 17px;
+    color: black;
+    transition: .2s;
+}
+/* hover animation on design */
+#design:hover{
+    font-size: 19px;
+    color: blue;
+}
+
+.finance{
+    text-align: center;
+    margin-top: 15px;
+}
+#finance{
+    font-size: 17px;
+    color: black;
+    transition: .2s;
+}
+#finance:hover{
+    font-size: 19px;
+    color: blue;
+}
+
+
+.top-companies{
+    text-align: center;
 }
