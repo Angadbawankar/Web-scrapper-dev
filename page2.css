@@ -149,7 +149,7 @@
 /* filter */
 .filter{
     padding-top: 30px;
-    height: 800px;
+    height: 900px;
     width: 300px;
     background-color: rgba(255, 0, 0, 0.3);
 }
@@ -244,7 +244,18 @@
     color: blue;
 }
 
-
+/* companies section*/
+.companies{
+    height: 200px;
+}
 .top-companies{
+    text-align: center;
+}
+
+.salary{
+    text-align: center;
+}
+
+.packages{
     text-align: center;
 }
