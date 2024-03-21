@@ -141,3 +141,30 @@
 .search-btn:active{
     box-shadow: 0 0 5px rgba(255, 0, 0, 0.4);
 }
+
+/* container-2 filter and companies */
+.container-2{
+    margin-top: 80px;
+}
+/* filter */
+.filter{
+    height: 800px;
+    width: 300px;
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+/* "experience" text */
+.experience{
+    text-align: center;
+}
+/* radio container */
+.experience-container{
+    text-align: center;
+}
+
+/* radio line 1 */
+.radio-1-line{
+    padding-right: 8px;
+    padding-bottom: 10px;
+
+}
