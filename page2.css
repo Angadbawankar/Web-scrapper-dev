@@ -70,7 +70,6 @@
 /* job on active */
 #job:active{
     text-shadow: 1px 2px 1.5px rgba(255, 0, 0, 0.5);
-
 }
 
 /* companies tab */
@@ -145,18 +144,19 @@
 /* container-2 filter and companies */
 .container-2{
     margin-top: 80px;
+    display: flex;
 }
 /* filter */
 .filter{
     padding-top: 30px;
-    height: 900px;
+    height: 1000px;
     width: 300px;
     background-color: rgba(255, 0, 0, 0.3);
 }
 
 /* "experience" text */
 .experience{
-    text-align: center;
+    text-align: center;• 
 }
 /* radio container */
 .experience-container{
@@ -258,4 +258,14 @@
 
 .packages{
     text-align: center;
+}
+
+/* jobs are starting from here */
+.jobs-container{
+    margin-left: 20%;
+}
+.zomato-details{
+    display: flex;
+    box-shadow: 2px 3px 10px black;
+    padding: 20px;
 }
