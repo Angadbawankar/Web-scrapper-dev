@@ -261,11 +261,44 @@
 }
 
 /* jobs are starting from here */
-.jobs-container{
-    margin-left: 20%;
+.jobs-conatiner{
+
 }
-.zomato-details{
+
+/* fstjob */
+
+.fstjob{
     display: flex;
-    box-shadow: 2px 3px 10px black;
-    padding: 20px;
+    background-color: pink;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 0 30px 30px 30px;
+    border-radius: 20px;
+}
+
+/* heading */
+.fstheading{
+    font-size: 40px;
+}
+
+/* logo */
+.fstlogo{
+    margin-top: 60px;
+}
+
+/* description */
+.fstdescription{
+    margin-left: 30px;
+    font-size: 22px;
+}
+
+/* apply button */
+.fstapply{
+    height: 40px;
+    width: 100px;
+    background-color: #ffffff;
+    margin-top: 120%;
+    font-size: 20px;
+    color: red;
+    border-radius: 30px;
 }

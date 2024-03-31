@@ -172,6 +172,7 @@
     margin-top: 60px;
     text-align: center;
     color: red;
+    font-size: 50px;
 }
 
 /* container-2 */
@@ -352,6 +353,7 @@
 /* explore text */
 .explore{
     text-align: center;
+    font-size: 50px;
 }
 /* logo-outer -container changes */
 .logo-outer-container{
