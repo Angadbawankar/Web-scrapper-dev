@@ -269,7 +269,7 @@
 
 .fstjob{
     display: flex;
-    background-color: pink;
+    box-shadow: 2px 4px 10px black;
     margin-left: 100px;
     margin-top: 20px;
     padding: 0 30px 30px 30px;
