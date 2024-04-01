@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: rgba(250, 235, 215, 0.7);
+        }
+        .outer{
+            border: 5px solid red;
+            border-radius: 50%;
+            height: 500px;
+            width: 700px;
+            margin-top: 10%;
+            margin-left: 30%;
+            box-shadow: -15px -5px 50px red;
+            animation: rotate;
+            transition: 1s;
+        }
+        /* animation */
+        @keyframes rotate{
+            0%{ 
+                box-shadow: -15px -5px 50px red;
+            }
+            50%{
+                box-shadow: ;
+            }
+        }
+        .image{
+            position: absolute;
+            display: flex;
+            margin-left: 150px;
+            margin-top: 160px;
+        }
+    </style>
+    <div class="outer">
+        <a href="/index.html">
+        <img src="/Images/JobXplore-removebg-preview.png" alt="" class="image">
+        </a>
+    </div>
+</body>
+</html>
