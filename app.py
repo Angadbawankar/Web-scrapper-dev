@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 from pymongo import MongoClient
 import pandas as pd
 
-app = Flask(__name__)
+app = Flask(__name__) #making the app
 
 # Connect to MongoDB
 client = MongoClient('mongodb://localhost:27017/')
